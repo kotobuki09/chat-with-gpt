@@ -7,7 +7,7 @@ const initialState: {
     elevenLabsApiKey?: string | null | undefined;
 
 } = {
-    openAIApiKey: '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',
+    openAIApiKey: localStorage.getItem('openai-api-key'),
     useOpenAIWhisper: false,
     elevenLabsApiKey: localStorage.getItem('elevenlabs-api-key'),
 };
